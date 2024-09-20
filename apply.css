@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html,body{
+    height: 100%;
+    width: 100%;
+} */
+
+
+.logo-img{
+    width: 150px;
+}
+.login-page-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.form-laptop{
+    display: none;
+}
+.cont-form{
+    display: block;
+    border: 1px solid red;
+}
+.d{
+    display: none;
+}
+.d1{
+    display: block;
+  border:1px solid rebeccapurple;
+ 
+  text-align: center;
+
+    
+}
+.d2{
+    border: 1px solid red;
+    padding: 10px;
+    font-family:'Didot';
+    
+}
+
+.label{
+    width: 90px;
+    display: inline-block;
+}
+h5{
+    border: 1px solid black;
+    width: 100%;
+    color: rgb(16, 75, 95);
+   text-decoration: underline;
+
+}
+   
+h5:hover{
+    background-color:rgb(216, 243, 254);
+}
+.d3{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Didot';
+}
+.button-laptop {
+    display: none;
+}
+.button{
+    display: block;
+    width: 35%;
+    margin-bottom: 20px;
+}
+/* 
+.div1-laptop{
+    display: none;
+
+}
+.div2-laptop{
+    display: none;
+
+}
+.div3-laptop{
+    display: none;
+
+}
+.div4-laptop{
+    display: none;
+    
+} */
+
+
+
+
+
+
+
+@media (min-width:1024px){
+
+    .button{
+        display: none;
+    }
+    .cont-form{
+        display: none;
+    }
+
+  .d1{
+    display: none;
+  } 
+  .d{
+    display: block;
+    margin-top: 35px;
+}
+  .form-laptop{
+    display: block;
+    width: 100wh;
+    border: 1px solid darkblue;
+   
+
+} 
+    
+ .d2{
+     width:50%;
+     position: relative;
+     left: 200px;
+    
+   
+ }
+ h5{
+    width: 50%;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    left: 200px;
+   
+
+
+ }
+.d{
+
+   border: 1px solid red;
+   width: 100%;
+
+}
+ 
+ .d3{
+    border: 1px solid black;
+  
+   
+}
+.div-laptop{
+    display: block;
+    border: 1px solid purple;
+   
+
+}
+.button-laptop {
+    display: block;
+    width:25%;
+    margin-top: 10px;
+    margin-right: 100px;
+   
+}
+/* .div1-laptop{
+    display: block;
+    border: 1px solid orange;
+
+}
+.div2-laptop{
+    display: block;
+    border: 1px solid rgb(126, 211, 35);
+
+}
+.div3-laptop{
+    display: block;
+    border: 1px solid rgb(7, 100, 118);
+
+}
+.div4-laptop{
+    display: block;
+    border: 1px solid rgb(119, 29, 168);
+    
+} */
+
+}

@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+
+    height:400%;
+    width: 100%;
+    border: 1px solid black;
+    /* background: linear-gradient(  #283048 , #859398 , darkgrey ); */
+   
+     /* background-color: #599eb8; */
+ 
+}
+.top-logo{
+    /* border: 1px solid darkblue; */
+    /* height: 10%; */
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly; */
+  
+
+}
+.logo{
+    flex-grow: 1;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: 10px;
+    background: linear-gradient( -45deg, rgb(187, 247, 249) , rgb(93, 231, 231) , cadetblue );
+}
+
+
+.logo-img{
+   width: 150px;
+}
+
+
+.body_cont{
+
+
+}
+
+.cont-home{
+    border: 1px solid rgb(203, 21, 109);
+    height: 550px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: linear-gradient(  -45deg, rgb(46, 109, 117) 50% , rgb(130, 211, 222)50%);
+    display: flex;
+    
+   
+}
+.container{
+    border: 1px solid black;
+    background-color: #3e7ee3;
+    color: white;
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    top:150px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    flex-shrink:1;
+  
+
+}
+.nav-cont{
+    background:linear-gradient( -45deg, rgb(46, 109, 117) 37.5% , rgb(130, 211, 222)30%);
+    /* color: cyan; */
+    width: 50%;
+    height: 100%;
+    
+}
+.button{
+    position: absolute;
+    top: 0;
+}
+
+.ul-cont{
+    position: absolute;
+    top:50px;
+   
+   
+}
+/* .a-link{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.li_cont{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.a-link:hover{
+   color: white;
+   background-color:rgb(175, 227, 225);
+   border-radius: 8px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+    
+}
+
+.Career_menu{
+    border: 1px solid red;
+    position: absolute;
+    top: 100px;
+    left: ;
+}
+.Career_items{
+    border: 1px solid black
+
+}
+.Career-button{
+    
+
+
+}
+
+/* .Career-cont{
+    border: 1px solid red;
+    /* margin-left:100px;
+    width: 100%;
+    list-style: none; */
+
+
+.Career-link{
+    /* text-decoration: none; */
+
+} */
+.cont-about-us{
+    border: 1px solid rgb(17, 40, 191);
+    height: 550px;
+    width: 100%;
+    margin-bottom: 10px;
+    /* margin-top: 10px; */
+    /* display: flex;    */
+}
+.heading1{
+    /* border: 1px solid rgb(205, 64, 215); */
+    margin-top: 10px;
+    text-align: center;
+    height: 50% ;
+    font-family: 'Times New Roman';
+}
+
+
+.h1{
+    /* border: 1px solid darkred; */
+    color: darkcyan;
+    font-weight: 900;
+}
+.h1:hover{
+    background-color: rgb(33, 139, 185);
+    color: white;
+}
+
+.img{
+    /* border: 1px solid darkred; */
+    background: linear-gradient(-45deg, #686c76 30%,  #3e7ee3 );
+}
+
+  
+.Vision-img{
+    /* border: 1px solid darkred; */
+    width: 100%;
+} 
+.cont-career{
+    border: 1px solid rgb(12, 145, 34);
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+
+.cont-contact-us{
+    border: 1px solid rgb(79, 94, 3);
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.cont-login{
+    border: 1px solid rgb(2, 66, 67);
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
